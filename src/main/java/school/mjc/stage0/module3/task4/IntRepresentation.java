@@ -6,8 +6,7 @@ public class IntRepresentation {
 
         for (char ch: chars){
             int intValue = (int) ch;
-            System.out.println("Character: " + ch + ", Integer representation: " + intValue);
-
+            System.out.println(intValue);
         }
     }
 }
